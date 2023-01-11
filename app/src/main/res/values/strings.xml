@@ -1,0 +1,1296 @@
+<resources>
+    <string name="app_name">Proyecto Valparaiso</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_name">Ingrese con su Cuenta</string>
+    <string name="nav_header_email">correo@correo.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Proyecto Valparaiso</string>
+    <string name="menu_gallery">Base de Datos de IPM</string>
+    <string name="menu_slideshow">Registro de Estaciones</string>
+    <string name="menu_login">Perfil</string>
+    <string name="menu_guardadas">Estaciones Guardadas</string>
+    <string name="menu_planillas">Coberturas y Uso del Suelo</string>
+
+
+    <string name="title_ipm">Capa de IPM</string>
+
+    <string name="title_form_ipm">Registro de Estaciones de Campo</string>
+    <string name="title_form_guardadas">Historial de Estaciones Guardadas</string>
+    <string name="title_form_planillas">Planillas de Verificación de Coberturas y Uso del Suelo</string>
+
+
+    <string-array name="Formularios">
+        <item>Ninguno</item>
+        <item>Catálogo MM</item>
+        <item>Inventario MM</item>
+        <item>UGS Rocas</item>
+        <item>UGS Suelos</item>
+        <item>SGMF</item>
+    </string-array>
+
+    <string-array name="Municipios">
+        <item>VALPARAISO</item>
+
+    </string-array>
+
+    <string-array name="ClaseAfloramiento">
+        <item>Natural</item>
+        <item>Corte superficial</item>
+        <item>Excavación subterránea</item>
+        <item>Trinchera, Apique</item>
+    </string-array>
+
+    <string-array name="SecuenciaEstratiRocas">
+        <item>Depósito de Gravedad</item>
+        <item>Suelo Transportado</item>
+        <item>Suelo Residual</item>
+        <item>Roca</item>
+    </string-array>
+
+    <string-array name="SecuenciaEstratiRocasSueloRes">
+        <item>III</item>
+        <item>II</item>
+        <item>I</item>
+    </string-array>
+
+    <string-array name="SecuenciaEstratiSuelos">
+        <item>Suelo Antrópico</item>
+        <item>Suelo Residual</item>
+        <item>Suelo Transportado</item>
+    </string-array>
+
+    <string-array name="Porcentajes">
+        <item>% Matriz</item>
+        <item>% Clastos</item>
+    </string-array>
+
+    <string-array name="SecuenciaEstratiSuelosSueloRes">
+        <item>VI (Suelo Residual Menor a 10% F.R.*)</item>
+        <item>V (Saprolito Fino 10%-35% F.R.*)</item>
+        <item>IV (Saprolito Grueso 35%-70% F.R.*)</item>
+    </string-array>
+
+
+    <string-array name="GSI">
+        <item>0-20</item>
+        <item>20-40</item>
+        <item>40-60</item>
+        <item>60-80</item>
+        <item>80-100</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="Fabrica1">
+        <item>Cristalina Masiva</item>
+        <item>Cristalina Foliada</item>
+        <item>Clástica Cementada</item>
+        <item>Clástica Consolidada</item>
+        <item>Roca de falla/ brecha de falla</item>
+        <item>No Aplica</item>
+    </string-array>
+    <string-array name="Fabrica2">
+        <item>No Aplica</item>
+        <item>Cristalina Masiva</item>
+        <item>Cristalina Foliada</item>
+        <item>Clástica Cementada</item>
+        <item>Clástica Consolidada</item>
+        <item>Roca de falla/ brecha de falla</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="HumedadNatural1">
+        <item>Seco</item>
+        <item>Húmedo </item>
+        <item>Con flujo</item>
+        <item>No Aplica</item>
+    </string-array>
+    <string-array name="HumedadNatural2">
+        <item>No Aplica</item>
+        <item>Seco</item>
+        <item>Húmedo </item>
+        <item>Con flujo</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="TamañoGrano1">
+        <item>Muy Grueso</item>
+        <item>Grueso </item>
+        <item>Medio</item>
+        <item>Fino</item>
+        <item>Muy Fino</item>
+        <item>No Aplica</item>
+    </string-array>
+    <string-array name="TamañoGrano2">
+        <item>No Aplica</item>
+        <item>Muy Grueso</item>
+        <item>Grueso </item>
+        <item>Medio</item>
+        <item>Fino</item>
+        <item>Muy Fino</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="GradoMeteo1">
+        <item>Ninguna</item>
+        <item>Débil </item>
+        <item>Moderada</item>
+        <item>Alta</item>
+        <item>Muy Alta</item>
+        <item>No Aplica</item>
+    </string-array>
+    <string-array name="GradoMeteo2">
+        <item>No Aplica</item>
+        <item>Ninguna</item>
+        <item>Débil </item>
+        <item>Moderada</item>
+        <item>Alta</item>
+        <item>Muy Alta</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="ResistenciaCompresionSimple1">
+        <item>Extremadamente Dura >250</item>
+        <item>Muy Dura 100-250</item>
+        <item>Dura 50-100</item>
+        <item>Moderada 25-50</item>
+        <item>Blanda 5-25</item>
+        <item>Muy blanda 1-5</item>
+        <item>Extremadamente blanda 0,25-1</item>
+        <item>No Aplica</item>
+    </string-array>
+    <string-array name="ResistenciaCompresionSimple2">
+        <item>No Aplica</item>
+        <item>Extremadamente Dura >250</item>
+        <item>Muy Dura 100-250</item>
+        <item>Dura 50-100</item>
+        <item>Moderada 25-50</item>
+        <item>Blanda 5-25</item>
+        <item>Muy blanda 1-5</item>
+        <item>Extremadamente blanda 0,25-1</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="TipoDiscont">
+        <item>0. Zona de falla</item>
+        <item>1. Plano de Falla </item>
+        <item>2. Diaclasa</item>
+        <item>3. Clivaje</item>
+        <item>4. Esquistosidad</item>
+        <item>5. Cizalla</item>
+        <item>6. Fisura</item>
+        <item>7. Grieta de tensión</item>
+        <item>8. Foliación</item>
+        <item>9. Estratificación</item>
+        <item>10. Estria/Espejo de falla</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="PersistenciaDiscont">
+        <item>1. Muy baja (Menor a 1 m)</item>
+        <item>2. Baja (1 a 3 m)</item>
+        <item>3. Media (3 a 10 m)</item>
+        <item>4. Alta (10 a 20 m)</item>
+        <item>5. Muy alta (Mayor a 20 m)</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="AnchoAberturaDiscont">
+        <item>1. Muy estrecha (Menor a 0,1 mm)</item>
+        <item>2. Estrecha (0,1 a 0,25 mm)</item>
+        <item>3. Parcialm abierta (0,25 a 0,5 mm)</item>
+        <item>4. Abierta (0,5 a 2,5 mm)</item>
+        <item>5. Moderadam abierta (2,5 a 10,0 mm)</item>
+        <item>6. Amplia (Mayor a 10 mm)</item>
+        <item>7. Muy Amplia (1 a 10 cm)</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="TipoRellenoDiscont">
+        <item>1. Limpia</item>
+        <item>2. Superficie teñida</item>
+        <item>3. No cohesivo</item>
+        <item>4. Matriz arcillosa inactiva</item>
+        <item>5. Matriz arcillosa expansiva</item>
+        <item>6. Cementada</item>
+        <item>7. Clorita, talco o yeso</item>
+        <item>8. Otra</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="RugosidadDiscont">
+        <item>1. Rugosa</item>
+        <item>2. Suave</item>
+        <item>3. Pulida</item>
+        <item>4. Estrías de falla</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="FormaSuperficieDiscont">
+        <item>1. Escalonada</item>
+        <item>2. Ondulada</item>
+        <item>3. Planar</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="HumedadDiaclasasDiscont">
+        <item>0. No hay posibilidad de flujo de agua</item>
+        <item>1. Discontinuidad seca sin evidencia de flujo de agua</item>
+        <item>2. Discontinuidad seca con manchas de óxido</item>
+        <item>3. Discontinuidad húmeda sin flujo de agua presente</item>
+        <item>4. Discontinuidad que muestra goteo, sin flujo de agua</item>
+        <item>5. Discontinuidad con flujo continuo de agua</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="EspaciamientoDiscont">
+        <item>1. Extremadamente cerrado (Menor a 0,20 mm)</item>
+        <item>2. Muy cerrado (20 a 60 mm)</item>
+        <item>3. Cerrado (60 a 200 mm)</item>
+        <item>4. Moderado (200 a 600 mm)</item>
+        <item>5. Amplio (600 a 2000 mm)</item>
+        <item>6. Muy amplio (2000 a 6000 mm)</item>
+        <item>7. Extremadamente espaciado (Mayor a 6000mm)</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="MeteorizacionDiscont">
+        <item>1. Fresca</item>
+        <item>2. Descolorida</item>
+        <item>3. Descompuesta</item>
+        <item>4. Desintegrada</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="EstructuraSoporte1">
+        <item>Clasto-soportado</item>
+        <item>Intermedia</item>
+        <item>Matriz soportado</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="EstructuraSoporte2">
+        <item>No Aplica</item>
+        <item>Clasto-soportado</item>
+        <item>Intermedia</item>
+        <item>Matriz soportado</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="CondicionHumedad1">
+        <item>Seco</item>
+        <item>Húmedo</item>
+        <item>Mojado</item>
+        <item>Muy Mojado</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="CondicionHumedad2">
+        <item>No Aplica</item>
+        <item>Seco</item>
+        <item>Húmedo</item>
+        <item>Mojado</item>
+        <item>Muy Mojado</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="EstructurasRelictas1">
+        <item>Estructuras heredadas</item>
+        <item>Fisuras</item>
+        <item>Grietas</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="EstructurasRelictas2">
+        <item>No Aplica</item>
+        <item>Estructuras heredadas</item>
+        <item>Fisuras</item>
+        <item>Grietas</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="Granulometria1">
+        <item>Arena Media (0,425 - 2,0 mm)</item>
+        <item>Arena gruesa (2,0 - 4,75 mm)</item>
+        <item>Gravas Finas (4,75 - 19 mm)</item>
+        <item>Gravas Gruesas (19-75 mm)</item>
+        <item>Cantos (75 - 300 mm)</item>
+        <item>Bloques (> 300 mm)</item>
+    </string-array>
+
+    <string-array name="Granulometria2">
+        <item>No Aplica</item>
+        <item>Arena Media (0,425 - 2,0 mm)</item>
+        <item>Arena gruesa (2,0 - 4,75 mm)</item>
+        <item>Gravas Finas (4,75 - 19 mm)</item>
+        <item>Gravas Gruesas (19-75 mm)</item>
+        <item>Cantos (75 - 300 mm)</item>
+        <item>Bloques (> 300 mm)</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="Forma1">
+        <item>Esférica</item>
+        <item>Equidimensional</item>
+        <item>Tabular</item>
+        <item>Plana-Alargada</item>
+        <item>Irregular</item>
+    </string-array>
+
+    <string-array name="Forma2">
+        <item>No Aplica</item>
+        <item>Esférica</item>
+        <item>Equidimensional</item>
+        <item>Tabular</item>
+        <item>Plana-Alargada</item>
+        <item>Irregular</item>
+        <item>No Aplica</item>
+    </string-array>
+
+
+    <string-array name="Redondez1">
+        <item>Bien Redondeada</item>
+        <item>Redondeada</item>
+        <item>Subredondeada</item>
+        <item>Subangular</item>
+        <item>Angular</item>
+        <item>Muy Angular</item>
+    </string-array>
+
+    <string-array name="Redondez2">
+        <item>No Aplica</item>
+        <item>Bien Redondeada</item>
+        <item>Redondeada</item>
+        <item>Subredondeada</item>
+        <item>Subangular</item>
+        <item>Angular</item>
+        <item>Muy Angular</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="OrientacionClastos1">
+        <item>Isotropía</item>
+        <item>Anisotropía</item>
+        <item>Imbricado</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="OrientacionClastos2">
+        <item>No Aplica</item>
+        <item>Isotropía</item>
+        <item>Anisotropía</item>
+        <item>Imbricado</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="MeteorizacionClastos1">
+        <item>Ninguna</item>
+        <item>Débil</item>
+        <item>Moderada</item>
+        <item>Alta</item>
+        <item>Muy alta</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="MeteorizacionClastos2">
+        <item>No Aplica</item>
+        <item>Ninguna</item>
+        <item>Débil</item>
+        <item>Moderada</item>
+        <item>Alta</item>
+        <item>Muy alta</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="GranulometriaMatriz1">
+        <item>Finos (Limos-Arcillas Menores de 0,075 mm)</item>
+        <item>Arena Fina (0,075 - 0,425 mm)</item>
+        <item>Arena Media (0,425 - 2,0 mm)</item>
+        <item>Arena gruesa (2,0 - 4,75 mm)</item>
+        <item>Gravas Finas (4,75 - 19 mm)</item>
+        <item>Gravas Gruesas (19-75 mm)</item>
+        <item>Cantos (75 - 300 mm)</item>
+        <item>Bloques (> 300 mm)</item>
+    </string-array>
+
+    <string-array name="GranulometriaMatriz2">
+        <item>No Aplica</item>
+        <item>Finos (Limos-Arcillas Menores de 0,075 mm)</item>
+        <item>Arena Fina (0,075 - 0,425 mm)</item>
+        <item>Arena Media (0,425 - 2,0 mm)</item>
+        <item>Arena gruesa (2,0 - 4,75 mm)</item>
+        <item>Gravas Finas (4,75 - 19 mm)</item>
+        <item>Gravas Gruesas (19-75 mm)</item>
+        <item>Cantos (75 - 300 mm)</item>
+        <item>Bloques (> 300 mm)</item>
+        <item>No Aplica</item>
+    </string-array>
+
+
+    <string-array name="Gradacion1">
+        <item>Normal</item>
+        <item>Inversa</item>
+        <item>Normal, solo a la base</item>
+        <item>Normal,solo al techo</item>
+        <item>Sin gradación</item>
+        <item>Compuesto, simétrico</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="Gradacion2">
+        <item>No Aplica</item>
+        <item>Normal</item>
+        <item>Inversa</item>
+        <item>Normal, solo a la base</item>
+        <item>Normal,solo al techo</item>
+        <item>Sin gradación</item>
+        <item>Compuesto, simétrico</item>
+        <item>No Aplica</item>
+    </string-array>
+
+
+    <string-array name="Seleccion1">
+        <item>Muy Pobremente Seleccionado</item>
+        <item>Pobremente Seleccionado</item>
+        <item>Moderadamente Seleccionado</item>
+        <item>Bien Seleccionado</item>
+        <item>Muy Bien Seleccionado</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="Seleccion2">
+        <item>No Aplica</item>
+        <item>Muy Pobremente Seleccionado</item>
+        <item>Pobremente Seleccionado</item>
+        <item>Moderadamente Seleccionado</item>
+        <item>Bien Seleccionado</item>
+        <item>Muy Bien Seleccionado</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="Plasticidad1">
+        <item>No plástico</item>
+        <item>Ligeramente Plástico</item>
+        <item>Plástico</item>
+        <item>Muy Plástico</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="Plasticidad2">
+        <item>No Aplica</item>
+        <item>No plástico</item>
+        <item>Ligeramente Plástico</item>
+        <item>Plástico</item>
+        <item>Muy Plástico</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="ResistenciaAlCorte1">
+        <item>Muy Blanda Menor a 20</item>
+        <item>Blanda 20-40</item>
+        <item>Media 40-75</item>
+        <item>Alta 75-150</item>
+        <item>Muy Alta 150-300</item>
+        <item>Dura > 300</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="ResistenciaAlCorte2">
+        <item>Muy Blanda Menor a 20</item>
+        <item>Blanda 20-40</item>
+        <item>Media 40-75</item>
+        <item>Alta 75-150</item>
+        <item>Muy Alta 150-300</item>
+        <item>Dura > 300</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="FormaSuelos1">
+        <item>Esférica</item>
+        <item>Equidimensional</item>
+        <item>Tabular</item>
+        <item>Plana-Alargada</item>
+        <item>Irregular</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="FormaSuelos2">
+        <item>Esférica</item>
+        <item>Equidimensional</item>
+        <item>Tabular</item>
+        <item>Plana-Alargada</item>
+        <item>Irregular</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="RedondezSuelos1">
+        <item>Bien Redondeada</item>
+        <item>Redondeada</item>
+        <item>Subredondeada</item>
+        <item>Subangular</item>
+        <item>Angular</item>
+        <item>Muy Angular</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="RedondezSuelos2">
+        <item>Bien Redondeada</item>
+        <item>Redondeada</item>
+        <item>Subredondeada</item>
+        <item>Subangular</item>
+        <item>Angular</item>
+        <item>Muy Angular</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="OrientacionSuelos1">
+        <item>Isotropía</item>
+        <item>Anisotropía</item>
+        <item>Imbricado</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="OrientacionSuelos2">
+        <item>Isotropía</item>
+        <item>Anisotropía</item>
+        <item>Imbricado</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="Compacidad1">
+        <item>Débil (suelta)</item>
+        <item>Moderada (Media)</item>
+        <item>Fuerte (Densa)</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="Compacidad2">
+        <item>Débil (suelta)</item>
+        <item>Moderada (Media)</item>
+        <item>Fuerte (Densa)</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="OpcionesEstacion">
+        <item>TipoEstacion</item>
+        <item>Este</item>
+        <item>Norte</item>
+        <item>Altitud</item>
+        <item>Fotos</item>
+        <item>FotosLib</item>
+        <item>Observaciones</item>
+        <item>Fecha</item>
+        <item>Propietario</item>
+    </string-array>
+
+
+    <string-array name="Ambientes">
+        <item>Morfoestructural</item>
+        <item>Volcánico</item>
+        <item>Denudacional</item>
+        <item>Fluvial-Lagunar</item>
+        <item>Marino-Costero</item>
+        <item>Glacial-Periglacial</item>
+        <item>Eólico</item>
+        <item>Kárstico</item>
+        <item>Antropogénico</item>
+
+    </string-array>
+
+    <string-array name="UbicacionGeomorfo">
+        <item>Geomorfoestructura</item>
+        <item>Provincia</item>
+        <item>Region</item>
+        <item>Unidad</item>
+        <item>Subunidad</item>
+        <item>Elemento</item>
+    </string-array>
+
+    <string-array name="TipodeRocaGMF">
+        <item>1. Ígnea ácida</item>
+        <item>2. Ígnea intermedia</item>
+        <item>3. Ígnea básica</item>
+        <item>4. Ígnea ultrabásica</item>
+        <item>5. Volcánica Pirosclástica</item>
+        <item>6. Sediment. cementada</item>
+        <item>7. Sediment. consolidada</item>
+        <item>8. Sedimentaria química</item>
+        <item>9. Metamórfica masiva</item>
+        <item>10. Metamórf. bandeada</item>
+        <item>11. Metamórf. bien foliada</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="MeteorizacionGMF">
+        <item>1. Fresca</item>
+        <item>2. Débil</item>
+        <item>3. Moderada</item>
+        <item>4. Alta</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="GradoFracturamientoGMF">
+        <item>1. Roca Sana</item>
+        <item>2. Roca Fracturada</item>
+        <item>3. Roca Muy fracturada</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="TipoSueloGMF">
+        <item>1. Antrópico</item>
+        <item>2. Residual</item>
+        <item>3. Transportado</item>
+        <item>3.1 Aluviales (Terrazas, Abanicos)</item>
+        <item>3.2 Lacustres</item>
+        <item>3.3 Coluviones</item>
+        <item>3.4 Talus</item>
+        <item>3.5 Flujos</item>
+        <item>3.6 Volcánicos</item>
+        <item>3.7 Eólicos</item>
+        <item>3.8 Glacial</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="TamañoGranoGMF">
+        <item>1. Grueso</item>
+        <item>2. Fino</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="TipoRelieveGMF">
+        <item>1. Montañoso (>500 m)</item>
+        <item>2. Colina (20 a 500 m)</item>
+        <item>3. Loma (50 a 200 m)</item>
+        <item>4. Montículo (Menor a 50 m)</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="IndiceRelieveGMF">
+        <item>1. Muy bajo (Menor a 50 m)</item>
+        <item>2. Bajo (50-250 m)</item>
+        <item>3. Moderado (250-500 m)</item>
+        <item>4. Alto (500-1000 m)</item>
+        <item>5. Muy Alto (1000 a 2500 m)</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="InclinacionLaderaGMF">
+        <item>1. Plana a suave (Menores a 5°)</item>
+        <item>2.Inclinada (5° a 10°)</item>
+        <item>3. Muy inclinada (10° - 15°)</item>
+        <item>4. Abrupta (15° - 20°)</item>
+        <item>5. Muy abrupta (20° - 30º)</item>
+        <item>6. Escarpada (30º - 45º)</item>
+        <item>7. Muy escarpada (>45º)</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="LongitudLaderaGMF">
+        <item>1. Muy corta (Menor a 50 m)</item>
+        <item>2. Corta (50-250 m)</item>
+        <item>3. Moderada (250-500 m)</item>
+        <item>4. Larga (500-1000 m)</item>
+        <item>5. Muy larga (1000-2500 m)</item>
+        <item>6. Extremada/ larga (>2500 m)</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="FormaLaderaGMF">
+        <item>1. Rectilínea</item>
+        <item>2. Cóncava</item>
+        <item>3. Convexa</item>
+        <item>4. Irregular</item>
+        <item>5. Compleja</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="FormaCrestaGMF">
+        <item>1. Aguda</item>
+        <item>2. Redondeada</item>
+        <item>3. Convexa amplia</item>
+        <item>4. Convexa plana</item>
+        <item>5. Plana</item>
+        <item>6. Plana Disectada</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="FormaValleGMF">
+        <item>1. Artesa</item>
+        <item>2. Forma de V</item>
+        <item>3. Forma de U</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="CoberturaGMF">
+        <item>1. Pastos</item>
+        <item>2. Bosques</item>
+        <item>3. Cultivos</item>
+        <item>4. Cantera</item>
+        <item>5. Urbana</item>
+        <item>6. Otro</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="UsoGMF">
+        <item>1. Ganadería</item>
+        <item>2. Explot.Forestal</item>
+        <item>3. Agricultura</item>
+        <item>4. Explot.Minera</item>
+        <item>5. Viviendas, vías</item>
+        <item>6. Otro</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="DensidadGMF">
+        <item>1. Baja (Menor a 0,5 Km/Km2)</item>
+        <item>2. Moderada (0,5 a 1 Km/Km2)</item>
+        <item>3. Alta (> 1 Km/Km2)</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="FrecuenciaGMF">
+        <item>1. Muy Alta (>40 #Frec/Km2)</item>
+        <item>2. Alta (21 a 40 #Frec/Km2)</item>
+        <item>3. Media (11 a 20 #Frec/Km2)</item>
+        <item>4. Baja (5 a 10 #Frec/Km2)</item>
+        <item>5. Muy baja (Menor a 5 #Frec/Km2)</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="TexturaGMF">
+        <item>1. Gruesa</item>
+        <item>2. Mediana</item>
+        <item>3. Fina</item>
+        <item>4. Muy Fina</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="PatronGMF">
+        <item>1. Dendrítico</item>
+        <item>2. Subdendrítico</item>
+        <item>3. Paralelo</item>
+        <item>4. Subparalelo</item>
+        <item>5. Pinado</item>
+        <item>6. Rectangular</item>
+        <item>7. Radial</item>
+        <item>8. Anular</item>
+        <item>9. Multicuenca</item>
+        <item>10. Condicionado</item>
+        <item>11. Otro</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="TipoErosionGMF">
+        <item>1. Laminar</item>
+        <item>2. Surcos</item>
+        <item>3. Barrancos</item>
+        <item>4. Cárcavas</item>
+        <item>5. Socavación</item>
+        <item>6. Tierras malas</item>
+        <item>7. Terracetas</item>
+        <item>8. Eólica</item>
+        <item>9. Glacial</item>
+        <item>10. Kárstica</item>
+        <item>11. Marina</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="EspaciamientoGMF">
+        <item>1. (Menor a 5 m)</item>
+        <item>2. (5 m a 15 m)</item>
+        <item>3. (15 m a 50 m)</item>
+        <item>4. (50 m a 150 m)</item>
+        <item>5. (150 m a 500 m)</item>
+        <item>6. (> 500 m)</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="IntensidadErosionGMF">
+        <item>1. Suave</item>
+        <item>2. Moderada</item>
+        <item>3. Severa</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="TipoMMGMF">
+        <item>1. Caídas</item>
+        <item>2. Volcamientos</item>
+        <item>3. Deslizamiento rotacional</item>
+        <item>4. Deslizamiento traslacional</item>
+        <item>5. Reptación</item>
+        <item>6. Propagación lateral</item>
+        <item>7. Flujos</item>
+        <item>8. Compuestos</item>
+        <item>9. Complejos</item>
+    </string-array>
+
+    <string-array name="TipoMaterialGMF">
+        <item>1. Finos</item>
+        <item>2. Arena (0.075 a 4.75 mm)</item>
+        <item>3. Grava (4,75 - 75,0 mm)</item>
+        <item>4. Guijos (75 - 300 mm)</item>
+        <item>5. Bloques (>300 mm)</item>
+    </string-array>
+
+    <string-array name="ActividadGMF">
+        <item>1. Inactiva: No presenta movimientos en masa</item>
+        <item>2. Poco activa: Presenta pocos MM</item>
+        <item>3. Activa: Presenta varios MM</item>
+        <item>No Aplica</item>
+    </string-array>
+
+
+    <string-array name="Importancia">
+        <item>Alta</item>
+        <item>Media</item>
+        <item>Baja</item>
+    </string-array>
+
+    <string-array name="FuenteFechaEvento">
+        <item>Incierta al Momento</item>
+        <item>Sensores remotos</item>
+        <item>Reportada por terceros</item>
+        <item>Consultada en pagina web</item>
+    </string-array>
+
+    <string-array name="ConfiFecha">
+        <item>Exacta</item>
+        <item>Certeza mes y año</item>
+        <item>Certeza Año</item>
+        <item>Confiabilidad baja</item>
+        <item>Incierta</item>
+    </string-array>
+
+    <string-array name="TipoMovimiento">
+        <item>No Aplica</item>
+        <item>Deslizamiento</item>
+        <item>Reptación</item>
+        <item>Caída</item>
+        <item>Flujo</item>
+        <item>Volcamiento</item>
+        <item>Propagación Lateral</item>
+        <item>Deform. Gravit. Profundas</item>
+    </string-array>
+
+    <string-array name="SubtipoMovimiento">
+        <item>Caída de Roca</item>
+        <item>Caída de Suelo</item>
+        <item>Caída de detritos</item>
+        <item>Volcamiento flexural de roca</item>
+        <item>Volcamiento de roca</item>
+        <item>Volcamiento macizo rocoso</item>
+        <item>Deslizamiento rotacional</item>
+        <item>Deslizamiento traslacional</item>
+        <item>Deslizamiento en cuña</item>
+        <item>Deslizamiento traslacional en cuña</item>
+        <item>Deslizamiento traslacional planar</item>
+        <item>Deslizamiento licuación de arena</item>
+        <item>Deslizamiento licuación de limo</item>
+        <item>Deslizamiento licuación detritos</item>
+        <item>Deslizamiento licuación roca fracturada</item>
+        <item>Deslizamiento por flujo</item>
+        <item>Flujo de detritos</item>
+        <item>Flujo de lodo</item>
+        <item>Flujo de Tierra</item>
+        <item>Flujo de turba</item>
+        <item>Avalancha de rocas</item>
+        <item>Avalancha de detritos</item>
+        <item>Crecida de detritos</item>
+        <item>Propagación lateral lenta</item>
+        <item>Propagación lateral licuación</item>
+        <item>Reptación de suelos</item>
+        <item>Solifluxión</item>
+        <item>Gelifluxión (en permafrost)</item>
+    </string-array>
+
+    <string-array name="SubtipoMovimiento1">
+        <item>No Aplica</item>
+        <item>Caída de Roca</item>
+        <item>Caída de Suelo</item>
+        <item>Caída de detritos</item>
+        <item>Volcamiento flexural de roca</item>
+        <item>Volcamiento de roca</item>
+        <item>Volcamiento macizo rocoso</item>
+        <item>Deslizamiento rotacional </item>
+        <item>Deslizamiento traslacional</item>
+        <item>Deslizamiento en cuña</item>
+        <item>Deslizamiento traslacional en cuña</item>
+        <item>Deslizamiento traslacional planar</item>
+        <item>Deslizamiento licuación de arena</item>
+        <item>Deslizamiento licuación de limo</item>
+        <item>Deslizamiento licuación detritos</item>
+        <item>Deslizamiento licuación roca fracturada</item>
+        <item>Deslizamiento por flujo</item>
+        <item>Flujo de detritos</item>
+        <item>Flujo de lodo</item>
+        <item>Flujo de Tierra</item>
+        <item>Flujo de turba</item>
+        <item>Avalancha de rocas</item>
+        <item>Avalancha de detritos</item>
+        <item>Crecida de detritos</item>
+        <item>Propagación lateral lenta</item>
+        <item>Propagación lateral licuación</item>
+        <item>Reptación de suelos</item>
+        <item>Solifluxión</item>
+        <item>Gelifluxión (en permafrost)</item>
+    </string-array>
+
+
+    <string-array name="ClaseDaño">
+        <item>I: Infraestructura</item>
+        <item>E: Económicos</item>
+        <item>A: Ambientales</item>
+    </string-array>
+
+    <string-array name="TiposDaño">
+        <item>DL: Daño leve</item>
+        <item>DM: Daño moderado</item>
+        <item>DS: Daño severo</item>
+        <item>DT: Daño total</item>
+        <item>NC: No cuantificable</item>
+    </string-array>
+
+    <string name="NotaDaños">Infraestructura: edificios, carreteras, inst. educativa, puentes, servicios publicos, vía ferrea, torre conducción eléctrica, obras lineales, planta eléctrica, torre de energía, capa asfaltica, galpones, tanque almacenamiento, espolones, distrito riego, puentes peatonales, puentes veredales, acueducto. Económicos: agricultura, ganadería, cultivos, semovientes, transporte pasajeros y carga. Ambientales: parques, bosques, planta tratamiento de agua.</string>
+
+
+    <string-array name="EdadMM">
+        <item>Menor a 1 año</item>
+        <item>1-5 años</item>
+        <item>6-10 años</item>
+        <item>11-15 años</item>
+        <item>16-20 años</item>
+        <item>21-30 años</item>
+        <item>31-40 años</item>
+        <item>41-60 años</item>
+        <item>61-80 años</item>
+        <item>> 80 años</item>
+    </string-array>
+
+    <string-array name="EstadoMM">
+        <item>Activo</item>
+        <item>Reactivado</item>
+        <item>Suspendido</item>
+        <item>Latente</item>
+        <item>Abandonado</item>
+        <item>Estabilizado</item>
+        <item>Relicto</item>
+    </string-array>
+
+    <string-array name="EstiloMM">
+        <item>Complejo</item>
+        <item>Compuesto</item>
+        <item>Múltiple</item>
+        <item>Sucesivo</item>
+        <item>Único</item>
+    </string-array>
+
+    <string-array name="DistribucionMM">
+        <item>Retrogresivo</item>
+        <item>Avanzado</item>
+        <item>Ensanchado</item>
+        <item>Confinado</item>
+        <item>Creciente</item>
+        <item>Decreciente</item>
+        <item>Movil</item>
+    </string-array>
+
+    <string-array name="EstructurasMM">
+        <item>Estratificación</item>
+        <item>Foliación</item>
+        <item>Diaclasas</item>
+        <item>Falla</item>
+        <item>Discordancia</item>
+        <item>Esquistosidad</item>
+    </string-array>
+
+    <string-array name="EstructurasEspaciamientoMM">
+        <item>>2</item>
+        <item>2-0.6</item>
+        <item>0.6-0.2</item>
+        <item>0.2-0.06</item>
+        <item>Menor a 0.06</item>
+    </string-array>
+
+    <string-array name="TipoMaterialMM">
+        <item>Roca</item>
+        <item>Detritos</item>
+        <item>Tierra</item>
+        <item>Lodos</item>
+        <item>Turba</item>
+    </string-array>
+
+    <string-array name="HumedadMM">
+        <item>Mojado</item>
+        <item>Muy Húmedo</item>
+        <item>Húmedo</item>
+        <item>Ligeramente húmedo</item>
+        <item>Seco</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="PlasticidadMM">
+        <item>Alta</item>
+        <item>Media</item>
+        <item>Baja</item>
+        <item>No plástico</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="OrigenSueloMM">
+        <item>Residual</item>
+        <item>Coluvial</item>
+        <item>Volcánico</item>
+        <item>Sedimetario</item>
+    </string-array>
+
+    <string-array name="OrigenSueloSedimentarioMM">
+        <item>Aluvial</item>
+        <item>Eolico</item>
+        <item>Glacial</item>
+        <item>Lacustre</item>
+        <item>Marino</item>
+    </string-array>
+
+    <string-array name="VelocidadMM">
+        <item>Extr. rápido (>5 m/s)</item>
+        <item>Muy rápido (>3 m/min)</item>
+        <item>Rápido (>1.8 m/hr)</item>
+        <item>Moderado (>13 m/mes)</item>
+        <item>Lento (>1.6 m/año)</item>
+        <item>Muy lento (>16 mm/año)</item>
+        <item>Extr. Lento (Menor a 16 mm/año)</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="SisClasificacionMM">
+        <item>Hutchinson, 1988</item>
+        <item>Varnes, 1978</item>
+        <item>Cruden y Varnes, 1996</item>
+        <item>Hungr et al., 2001</item>
+    </string-array>
+
+    <string-array name="GeneralMM">
+        <item>Diferencia altura corona a punta(m)</item>
+        <item>Longitud horizontal corona a punta(m)</item>
+        <item>Fahrböschung (grados)</item>
+        <item>Pendiente ladera en Post-falla(grados)</item>
+        <item>Pendiente ladera en Pre-falla(grados)</item>
+        <item>Dirección del movimiento(grados)</item>
+        <item>Azimut del talud(grados)</item>
+    </string-array>
+
+    <string-array name="DimenTerrenoMM">
+        <item>Ancho masa desplazada Wd(m)</item>
+        <item>Ancho superficie de ruptura Wr(m)</item>
+        <item>Longitud masa desplazada Ld(m)</item>
+        <item>Longitud superficie de ruptura Lr(m)</item>
+        <item>Espesor masa desplazada Dd (m)</item>
+        <item>Profundidad superficie de ruptura Dr(m)</item>
+        <item>Longitud total L (m)</item>
+        <item>Volumen inicial (m3)</item>
+        <item>Volumen desplazado (m3)</item>
+        <item>Área inicial (Km2)</item>
+        <item>Área total afectada (Km2)</item>
+        <item>Run up (m)</item>
+        <item>Distancia de viaje (Km)</item>
+    </string-array>
+
+    <string-array name="ModoMM">
+        <item>Ondulación</item>
+        <item>Escalonamiento</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="SeveridadMM">
+        <item>Leve</item>
+        <item>Media</item>
+        <item>Severa</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="InherentesMM">
+        <item>Material plástico débil</item>
+        <item>Material sensible</item>
+        <item>Material colapsible</item>
+        <item>Material meteor. fisicamente</item>
+        <item>Material meteor. quimicamente</item>
+        <item>Material fallado por corte</item>
+        <item>Material fisurado y agrietado</item>
+        <item>Orientación desfav. de discontinuidades</item>
+        <item>Contraste de permeabilidad de materiales</item>
+        <item>Contraste de rígidez de materiales</item>
+        <item>Meteoriz. por descongelamiento/deshielo</item>
+        <item>Meteoriz. por expansión/contracción</item>
+    </string-array>
+
+    <string-array name="ContriDetonantesMM">
+        <item>Movimiento tectónico</item>
+        <item>Sismo</item>
+        <item>Erupción volcánica</item>
+        <item>Lluvias (mm)</item>
+        <item>Viento</item>
+        <item>Deshielo</item>
+        <item>Avance/Retroceso de glaciales</item>
+        <item>Rompimiento de lagos en crateres</item>
+        <item>Rompimiento de presas</item>
+        <item>Desembalse rápido de presas</item>
+        <item>Erosión pata del talud por glaciares</item>
+        <item>Socavación pata del talud por corriente agua</item>
+        <item>Socavación pata del talud por oleaje</item>
+        <item>Socavación de margenes de ríos</item>
+        <item>Erosión Pluvial</item>
+        <item>Carga en la corona del talud</item>
+        <item>Erosión subterranea (disolución, tubificación)</item>
+        <item>Irrigación</item>
+        <item>Mantenimiento deficiente sistema de drenaje</item>
+        <item>Escapes de agua de tuberias</item>
+        <item>Deforestación o ausencia de vegetación</item>
+        <item>Mineria</item>
+        <item>Disposición deficiente de estériles/escombros</item>
+        <item>Vibración artificial (trafico, explosiones, hincado pilotes)</item>
+        <item>Erosión Fluvial</item>
+    </string-array>
+
+    <string-array name="SismoMM">
+        <item>Magnitud</item>
+        <item>Escala (ML, Ms, mb, Mw)</item>
+        <item>Distancia al epicentro (Km)</item>
+        <item>Profundiad (Km)</item>
+    </string-array>
+
+    <string-array name="LluviasMM">
+        <item>24h</item>
+        <item>48h</item>
+        <item>72h</item>
+        <item>Mes</item>
+    </string-array>
+
+    <string-array name="ErosionSuperficialMM">
+        <item>Tierras malas</item>
+        <item>Carcavas</item>
+        <item>Surcos</item>
+        <item>Hondonadas</item>
+        <item>Laminar</item>
+    </string-array>
+
+    <string-array name="ErosionSubsuperficialMM">
+        <item>Cavernas</item>
+        <item>Tubificación</item>
+    </string-array>
+
+    <string-array name="ErosionEdadMM">
+        <item>Antigua</item>
+        <item>Reciente</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="ErosionEstadoMM">
+        <item>Baja</item>
+        <item>Moderada</item>
+        <item>Severa</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="ErosionFluvialMM">
+        <item>Socav. fondo</item>
+        <item>Socav. lateral</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="ErosionEolicaMM">
+        <item>Si</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="CoberturaSueloMM">
+        <item>Veg. Herbácea (%)</item>
+        <item>Bosque/Selva (%)</item>
+        <item>Matorrales (%)</item>
+        <item>Cuerpo de agua (%)</item>
+        <item>Cultivos (%)</item>
+        <item>Construcciones (%)</item>
+        <item>Pastos (%)</item>
+        <item>Sin cobertura (%)</item>
+    </string-array>
+
+    <string-array name="UsoSueloMM">
+        <item>Ganaderia (%)</item>
+        <item>Agrícola (%)</item>
+        <item>Recreación (%)</item>
+        <item>Vivienda (%)</item>
+        <item>Mineria (%)</item>
+        <item>Área protegida (%)</item>
+        <item>Vias (%)</item>
+        <item>Zona arqueológica (%)</item>
+        <item>Zona Industrial (%)</item>
+        <item>Sin uso (%)</item>
+    </string-array>
+
+    <string-array name="TipoEfectoSecMM">
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+        <item>VI</item>
+        <item>No Aplica</item>
+    </string-array>
+
+    <string-array name="MorfometriaPresaMM">
+        <item>Longitud (m)</item>
+        <item>Altura (m)</item>
+        <item>Ancho (m)</item>
+        <item>Volúmen (m³)</item>
+        <item>Talud arriba (°)</item>
+        <item>Talud abajo (°)</item>
+    </string-array>
+
+    <string-array name="MorfometriaEmbalse">
+        <item>Longitud (m)</item>
+        <item>Área (m²)</item>
+        <item>Volúmen (m³)</item>
+        <item>Nivel agua bajo corona (m)</item>
+        <item>Area cuenca (m²)</item>
+        <item>Caudal entrada</item>
+        <item>Caudal salida</item>
+        <item>Tasa de llenado</item>
+    </string-array>
+
+    <string-array name="CondicionesPresa">
+        <item>Obstrucción parcial</item>
+        <item>Erosión de la pata</item>
+        <item>Estabilización artificial</item>
+        <item>Ligeramente socavada</item>
+        <item>Moderadamente socavda</item>
+        <item>Fuertemente socavda</item>
+        <item>Parcialmente fallada</item>
+        <item>Fallada</item>
+    </string-array>
+
+    <string-array name="EfectosPresa">
+        <item>Tsunami (alt. ola)</item>
+        <item>Empalizada</item>
+        <item>Sedimentación</item>
+        <item>Sismo</item>
+        <item>Inundacion</item>
+    </string-array>
+
+    <string-array name="TipoEstaciones">
+        <item>Seleccione un Tipo</item>
+        <item>Caracterización UGS</item>
+        <item>Punto de control UGS</item>
+        <item>Caracterización SGMF</item>
+        <item>Punto de control SGMF</item>
+        <item>Caracterización de CMM</item>
+        <item>Caracterización de IMM</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
