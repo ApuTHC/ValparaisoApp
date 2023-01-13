@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace 'com.example.valparaisoapp'
-    compileSdk 32
+//    namespace 'com.example.valparaisoapp'
+    compileSdk 31
 
     defaultConfig {
         applicationId "com.example.valparaisoapp"
         minSdk 23
-        targetSdk 32
+        targetSdk 31
         versionCode 1
         versionName "1.0"
 

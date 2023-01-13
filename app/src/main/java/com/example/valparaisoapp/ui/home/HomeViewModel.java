@@ -10,7 +10,7 @@ public class HomeViewModel extends ViewModel {
 
     public HomeViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Proyecto de Actualización del Mapa Nacional de Amenaza por Movimientos en Masa a Escala 1:25.000 - Bloque 05");
+        mText.setValue("ESTUDIOS DE AMENAZA A NIVEL DE DETALLE EN EL SECTOR SABALETAS DEL MUNICIPIO DE VALPARAÍSO (ANTIOQUIA) PARA ESTABLECER LAS ÁREAS CON CONDICIÓN DE AMENAZA Y CONDICIÓN DE RIESGO");
     }
 
     public LiveData<String> getText() {

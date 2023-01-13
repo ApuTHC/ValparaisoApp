@@ -27,6 +27,7 @@
 
     <string-array name="Formularios">
         <item>Ninguno</item>
+        <item>Caracterización Vivienda</item>
         <item>Catálogo MM</item>
         <item>Inventario MM</item>
         <item>UGS Rocas</item>
@@ -1282,6 +1283,7 @@
 
     <string-array name="TipoEstaciones">
         <item>Seleccione un Tipo</item>
+        <item>Caracterización de Vivienda</item>
         <item>Caracterización UGS</item>
         <item>Punto de control UGS</item>
         <item>Caracterización SGMF</item>
@@ -1289,6 +1291,19 @@
         <item>Caracterización de CMM</item>
         <item>Caracterización de IMM</item>
     </string-array>
+
+    <string-array name="TipoMaterialValpa">
+        <item>Madera</item>
+        <item>Acero</item>
+        <item>Tapia</item>
+        <item>Concreto</item>
+        <item>Mampostería</item>
+        <item>Bahareque</item>
+
+    </string-array>
+
+
+
 
 
     <!-- TODO: Remove or change this placeholder text -->

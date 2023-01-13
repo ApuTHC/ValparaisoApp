@@ -63,6 +63,7 @@ public class GuardadasFragment extends Fragment {
     List<Button> listBtnAcordion = new ArrayList<Button>();
     List<Button> listBtnSubido = new ArrayList<Button>();
 
+    List<String[]> ListaVIVIENDA = new ArrayList<String[]>();
     List<String[]> ListaRocas = new ArrayList<String[]>();
     List<String[]> ListaRocasDiscont = new ArrayList<String[]>();
     List<String[]> ListaFotosAnexas = new ArrayList<String[]>();
@@ -328,12 +329,121 @@ public class GuardadasFragment extends Fragment {
                                     JSONObject Formularios = form.getJSONObject("Formularios");
                                     JSONObject counts = Formularios.getJSONObject("counts");
 
+                                    int contVIVIENDA = Integer.parseInt(counts.getString("VIVIENDA"));
                                     int contUGS_Rocas = Integer.parseInt(counts.getString("UGS_Rocas"));
                                     int contUGS_Suelos = Integer.parseInt(counts.getString("UGS_Suelos"));
                                     int contSGMF = Integer.parseInt(counts.getString("SGMF"));
                                     int contCATALOGO = Integer.parseInt(counts.getString("CATALOGO"));
                                     int contINVENTARIO = Integer.parseInt(counts.getString("INVENTARIO"));
 
+                                    for (int j = 0; j < contVIVIENDA; j++)  {
+                                        JSONObject FromatoAux = Formularios.getJSONObject("Form_VIVIENDA_"+j);
+                                        JSONObject SpinnersAux = FromatoAux.getJSONObject("Spinners");
+                                        JSONObject EditTextsAux = FromatoAux.getJSONObject("EditText");
+
+                                        int aux = j + 1;
+
+                                        Button btnFormAcordion = new Button(mcont);
+                                        btnFormAcordion.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+                                        btnFormAcordion.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.ic_arrow_down, 0);
+                                        btnFormAcordion.setText("Formato VIVIENDA "+aux);
+                                        btnFormAcordion.setTag(j);
+                                        liForm.addView(btnFormAcordion);
+
+                                        LinearLayout liFormAcordion = new LinearLayout(mcont);
+                                        liFormAcordion.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+                                        liFormAcordion.setOrientation(LinearLayout.VERTICAL);
+                                        liFormAcordion.setBackgroundColor(0x22222200);
+                                        liFormAcordion.setVisibility(View.GONE);
+                                        liForm.addView(liFormAcordion);
+
+                                        btnFormAcordion.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View v) {
+
+                                                if (liFormAcordion.getVisibility() == View.VISIBLE) {
+                                                    ScaleAnimation animation = new ScaleAnimation(1f, 1f, 1f, 0f, Animation.RELATIVE_TO_SELF, 0f, Animation.RELATIVE_TO_SELF, 0f);
+                                                    animation.setDuration(220);
+                                                    animation.setFillAfter(false);
+                                                    animation.setAnimationListener(new Animation.AnimationListener() {
+                                                        @Override
+                                                        public void onAnimationStart(Animation animation) {
+                                                        }
+                                                        @Override
+                                                        public void onAnimationEnd(Animation animation) {
+                                                            liFormAcordion.setVisibility(View.GONE);
+                                                            btnFormAcordion.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.ic_arrow_down, 0);
+                                                        }
+                                                        @Override
+                                                        public void onAnimationRepeat(Animation animation) {
+                                                        }
+                                                    });
+                                                    liFormAcordion.startAnimation(animation);
+
+                                                }
+                                                else {
+                                                    ScaleAnimation animation = new ScaleAnimation(1f, 1f, 0f, 1f, Animation.RELATIVE_TO_SELF, 0f, Animation.RELATIVE_TO_SELF, 0f);
+                                                    animation.setDuration(220);
+                                                    animation.setFillAfter(false);
+                                                    liFormAcordion.startAnimation(animation);
+                                                    liFormAcordion.setVisibility(View.VISIBLE);
+                                                    btnFormAcordion.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.ic_arrow_up, 0);
+                                                }
+
+                                            }
+                                        });
+
+                                        for (int k = 0; k < ListaVIVIENDA.size(); k++) {
+                                            LinearLayout liHori = new LinearLayout(mcont);
+                                            liHori.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+                                            liHori.setOrientation(LinearLayout.HORIZONTAL);
+                                            liHori.setPadding(0, 0, 0, 20);
+
+                                            LinearLayout liVert = new LinearLayout(mcont);
+                                            liVert.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+                                            liVert.setOrientation(LinearLayout.VERTICAL);
+                                            liVert.setPadding(0, 0, 0, 20);
+
+                                            String clase = ListaVIVIENDA.get(k)[2];
+                                            String titulo = ListaVIVIENDA.get(k)[1];
+                                            String tag = ListaVIVIENDA.get(k)[0];
+
+                                            if (clase.equals("edittext") || clase.equals("spinner")){
+                                                String valor;
+
+                                                if(clase.equals("edittext")){
+                                                    valor = EditTextsAux.getString(tag);
+                                                }else{
+                                                    valor = SpinnersAux.getString(tag);
+                                                }
+
+
+                                                TextView tvOpte = new TextView(mcont);
+                                                tvOpte.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+                                                tvOpte.setText(titulo+": ");
+                                                tvOpte.setTextAppearance(R.style.TituloItemEncabezado);
+                                                tvOpte.setPadding(0, 20, 0, 0);
+                                                liHori.addView(tvOpte);
+
+                                                TextView tvOpts = new TextView(mcont);
+                                                tvOpts.setLayoutParams(new ActionBar.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+                                                tvOpts.setText(valor);
+                                                tvOpts.setTextAppearance(R.style.TituloItem);
+                                                tvOpts.setPadding(0, 20, 0, 0);
+                                                liHori.addView(tvOpts);
+
+                                                liVert.addView(liHori);
+
+
+
+                                            }
+
+
+                                            liFormAcordion.addView(liVert);
+
+                                        }
+
+                                    }
                                     for (int j = 0; j < contUGS_Rocas; j++) {
                                         JSONObject FromatoAux = Formularios.getJSONObject("Form_UGS_Rocas_"+j);
                                         JSONObject SpinnersAux = FromatoAux.getJSONObject("Spinners");
@@ -2797,6 +2907,16 @@ public class GuardadasFragment extends Fragment {
     }
 
     private void CargarForms() {
+
+        ListaVIVIENDA.add(new String[]{ "idformatoValpa","ID Formato",  "edittext"});
+        ListaVIVIENDA.add(new String[]{ "tipoMaterialValpa", "Tipo de Material",  "spinner"});
+        ListaVIVIENDA.add(new String[]{ "veredaValpa", "Vereda o Sector",  "edittext"});
+        ListaVIVIENDA.add(new String[]{ "lugarValpa", "Lugar",  "edittext"});
+        ListaVIVIENDA.add(new String[]{ "invValpa", "Inventario o Reporte de Daños",  "edittext"});
+        ListaVIVIENDA.add(new String[]{ "nombresValpa", "Nombre y Contacto",  "edittext"});
+        ListaVIVIENDA.add(new String[]{ "numeroValpa", "Número de Personas que Viven en la Casa",  "edittext"});
+        ListaVIVIENDA.add(new String[]{ "ObsValpa", "Observaciones Adicionales",  "edittext"});
+
         ListaRocas.add(new String[]{"noformato", "Número Formato", "edittext"});
         ListaRocas.add(new String[]{"municipios", "Municipio", "spinner"});
         ListaRocas.add(new String[]{"vereda", "Vereda", "edittext"});
